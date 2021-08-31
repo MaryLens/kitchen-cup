@@ -3,7 +3,7 @@ package kitchen;
 public class Cup {
 
 	private String liquidName;
-	private short liquidVolume;
+    short liquidVolume;
 
 
 	public Cup(String liquidName, int liquidVolume) {
@@ -40,3 +40,6 @@ public class Cup {
 	}
 
 }
+
+
+
