@@ -8,7 +8,7 @@ public class BigCup extends Cup {
 
 	void setLiquidVolume(short liquidVolume) {
 		if (liquidVolume >= 0 && liquidVolume <= 1000) {
-			this.liquidVolume = (short) liquidVolume;
+			super.setLiquidVolume(liquidVolume);
 		} else if (liquidVolume > 1000) {
 			System.err.println("ERROR! You can pour only 1000 mL of liquid into this cup!");
 		} else {
